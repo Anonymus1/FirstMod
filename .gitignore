@@ -41,3 +41,18 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+#my blocked dirs
+.gradle/
+.idea/
+build/
+classes/
+eclipse/
+Build.bat
+build.gradle
+CREDITS-fml.txt
+FirstMod.iml
+gradlew
+Setup intellij.bat
+SetupWorkspace.bat
+gradlew.bat
+gradle/
