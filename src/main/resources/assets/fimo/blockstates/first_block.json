@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "fimo:first_block" }
+  }
+}

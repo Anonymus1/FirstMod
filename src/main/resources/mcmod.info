@@ -1,0 +1,16 @@
+[
+{
+  "modid": "fimo",
+  "name": "First Mod",
+  "description": "The mod made by the best programmer in the world (Gavin).",
+  "version": "1.0",
+  "mcversion": "1.8",
+  "url": "http://www.CAResist.github.io",
+  "updateUrl": "",
+  "authorList": ["Gavin Carroll"],
+  "credits": "My dad, for teaching me software development",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,8 @@
+item.first_item.name=My First Item
+item.lightning_sword.name=Sword of En-Lightning
+item.lightning_rod.name=Lightning Rod
+item.lightning_pickaxe.name=Lightning Pickaxe
+
+tile.first_block.name=My First Block
+
+itemGroup.tabFirst=My First Tab
