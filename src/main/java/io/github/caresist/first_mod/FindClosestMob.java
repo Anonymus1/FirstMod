@@ -1,5 +1,6 @@
 package io.github.caresist.first_mod;
 
+import net.minecraft.client.entity.EntityOtherPlayerMP;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.monster.EntityMob;
@@ -13,7 +14,7 @@ public class FindClosestMob {
         Entity thisOne = null;
         for (int i = 0; i < worldIn.loadedEntityList.size(); i++) {
             if (((Entity) worldIn.loadedEntityList.get(i)).getDistanceToEntity(playerIn) < closest) {
-                if ((worldIn.loadedEntityList.get(i) instanceof EntityMob) || (worldIn.loadedEntityList.get(i) instanceof EntityPlayerMP) || (worldIn.loadedEntityList.get(i) instanceof EntityPlayer)) //if it is a mob...
+                if ((worldIn.loadedEntityList.get(i) instanceof EntityMob) || (worldIn.loadedEntityList.get(i) instanceof EntityOtherPlayerMP) ) /*|| (worldIn.loadedEntityList.get(i) instanceof EntityPlayerMP) || (worldIn.loadedEntityList.get(i) instanceof EntityPlayer)*/ //if it is a mob...
                 {
                     closest = ((Entity) worldIn.loadedEntityList.get(i)).getDistanceToEntity(playerIn);
                     thisOne = ((Entity) worldIn.loadedEntityList.get(i));

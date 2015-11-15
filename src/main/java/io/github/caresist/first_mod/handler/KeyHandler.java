@@ -37,13 +37,11 @@ public class KeyHandler {
             boolean isDown = Keyboard.getEventKeyState();
 
                 if(isDown && key == KEYVALUES[AIMBOT_KEY]){
-                    System.out.printf("AIM-key is now down%nI reapeat key is now down%n%n");
                     World world = Minecraft.getMinecraft().theWorld;
                     EntityPlayer player = Minecraft.getMinecraft().thePlayer;
                     FindClosestMob.findClosestMob(world, player);
 
                 if(isDown && key == KEYVALUES[PROGRAMMER_KEY]){
-                    System.out.printf("PRO-key is now down%nI reapeat key is now down%n%n");
 
                 }
             }
