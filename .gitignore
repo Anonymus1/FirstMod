@@ -44,7 +44,6 @@ Temporary Items
 #my blocked dirs
 .gradle/
 .idea/
-build/
 classes/
 eclipse/
 Build.bat
@@ -56,3 +55,4 @@ Setup intellij.bat
 SetupWorkspace.bat
 gradlew.bat
 gradle/
+build/

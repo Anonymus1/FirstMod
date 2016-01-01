@@ -40,7 +40,7 @@ public class FindClosestMob {
 
             float pitch = playerIn.rotationPitch;
             float yaw = playerIn.rotationYaw;
-            System.out.println("P+Y:" + pitch +" "+ yaw +"  "+pitchOld + " "+ yawOld+"  "+"M:"+thisOne.posX +" " +thisOne.posY+" " + thisOne.posZ + "  "+"P:" + playerIn.posX + " " + playerIn.posY + " " + playerIn.posZ + "  " +"D:"+ difX + " " + difY + " " + difZ);
+            //System.out.println("P+Y:" + pitch +" "+ yaw +"  "+pitchOld + " "+ yawOld+"  "+"M:"+thisOne.posX +" " +thisOne.posY+" " + thisOne.posZ + "  "+"P:" + playerIn.posX + " " + playerIn.posY + " " + playerIn.posZ + "  " +"D:"+ difX + " " + difY + " " + difZ);
 
             //worldIn.addWeatherEffect(new EntityLightningBolt(worldIn, thisOne.posX, thisOne.posY, thisOne.posZ));
         }
